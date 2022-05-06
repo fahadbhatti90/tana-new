@@ -1,0 +1,22 @@
+.tableCategory tr>:first-child {
+    position: sticky;
+    inset-inline-start: 0;
+    background: #212744;
+    color: #f8f8f8
+        /* "left" */
+}
+
+.tableCategory .tfoot {
+    position: sticky;
+    inset-block-end: 0;
+    background: #212744;
+    color: #f8f8f8
+        /* "bottom" */
+}
+
+.select2-container .select2-selection--multiple .select2-selection__choice {
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    word-wrap: break-word;
+}

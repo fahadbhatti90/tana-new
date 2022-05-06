@@ -1,0 +1,4 @@
+body.dark-layout .table.table-striped .thead tr>th {
+    background-color: #10163a !important;
+    border: 1px solid #10163a !important;
+}

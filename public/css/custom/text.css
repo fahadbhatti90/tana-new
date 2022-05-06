@@ -1,0 +1,21 @@
+.headline_text {
+    font-family: "Source Sans Pro Light", sans-serif;
+    text-transform:uppercase;
+}
+
+.subhead_text {
+    font-family: "Source Sans Pro Semi bold", sans-serif;
+    text-transform:uppercase;
+}
+
+.body_text {
+    font-family: "Axiforma Light", sans-serif;
+}
+.c3-legend-item{
+    font-family: "Axiforma Light !important", sans-serif;
+}
+thead{
+    font-family: "Source Sans Pro Semi bold", sans-serif;
+    text-transform:uppercase;
+}
+

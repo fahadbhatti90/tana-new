@@ -1,0 +1,8 @@
+i.fv-plugins-icon {
+    margin-right: 24px;
+}
+.select2-selection {
+    overflow: scroll;
+    max-height: 150px;
+    overflow-x: hidden;
+}

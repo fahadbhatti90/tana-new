@@ -1,0 +1,106 @@
+path.domain {
+    stroke: #C2C6DC !important;
+}
+
+.c3 line {
+    fill: none;
+    stroke: #C2C6DC;
+}
+
+.c3 svg {
+    width: 100%;
+}
+
+.c3-legend-background {
+    opacity: 0.75;
+    fill: #10163a;
+    stroke: lightgray;
+    stroke-width: 1;
+}
+
+.tick text {
+    fill: #C2C6DC;
+    color: #C2C6DC;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: lighter;
+    font-stretch: normal;
+    font-size: 10px;
+    line-height: normal;
+    font-family: sans-serif;
+}
+
+.c3-chart-arc .c3-gauge-value {
+    fill: #C2C6DC !important;
+}
+
+.c3-chart-arc text {
+    fill: #C2C6DC !important;
+}
+
+.c3-chart-arcs .c3-chart-arcs-background {
+    fill: #252b47 !important;
+    stroke: #FFF !important;
+}
+
+.c3-chart-arcs .c3-chart-arcs-gauge-max {
+    fill: #C2C6DC !important;
+}
+
+.c3-chart-arcs .c3-chart-arcs-gauge-min {
+    fill: #C2C6DC !important;
+}
+
+g.c3-chart-texts {
+    color: #000000 !important;
+    border-color: #414561;
+}
+
+body.dark-layout .card .card-body,
+body.dark-layout .card .card-footer {
+    color: #C2C6DC !important;
+    border-color: #414561;
+}
+
+.c3-legend-item text {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis-x {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis-x-label {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis-y {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis-y-label {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis-y2 {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}
+
+.c3-axis-y2-label {
+    fill: #C2C6DC !important;
+    color: #C2C6DC !important;
+}

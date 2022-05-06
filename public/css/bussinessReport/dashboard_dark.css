@@ -1,0 +1,293 @@
+.tablePortfolio .tfoot {
+    position: sticky;
+    inset-block-end: 0;
+    background: #212744 !important;
+    color: #f8f8f8;
+    /* "bottom" */
+}
+
+.tablePortfolio tr>:first-child {
+    position: sticky;
+    inset-inline-start: 0;
+    background: #212744 !important;
+    /* "left" */
+}
+
+.checkbox-div {
+    height: 285px;
+    border: 2px solid #e0e0e0;
+    width: 156px;
+    padding: 16px;
+    margin-left: 85px;
+    border-radius: 5px;
+}
+
+/* for ad sales checkbox */
+.checkbox-ad-sales {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-ad-sales>span {
+    padding-left: 5px;
+}
+
+.checkbox-ad-sales>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #4DD0EA;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-ad-sales>input:checked {
+    border: 1px solid #4DD0EA;
+    background-color: #4DD0EA;
+}
+
+/* for ad spends checkbox*/
+.checkbox-ad-spend {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-ad-spend>span {
+    padding-left: 5px;
+}
+
+.checkbox-ad-spend>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #FFB371;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-ad-spend>input:checked {
+    border: 1px solid #FFB371;
+    background-color: #FFB371;
+}
+
+/* for ROAS checkbox */
+.checkbox-roas {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-roas>span {
+    padding-left: 5px;
+}
+
+.checkbox-roas>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #9DE5E6;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-roas>input:checked {
+    border: 1px solid #9DE5E6;
+    background-color: #9DE5E6;
+}
+
+/* for ordered revenue checkbox */
+.checkbox-ordered-revenue {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-ordered-revenue>span {
+    padding-left: 5px;
+}
+
+.checkbox-ordered-revenue>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #2693BE;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-ordered-revenue>input:checked {
+    border: 1px solid #2693BE;
+    background-color: #2693BE;
+}
+
+/* for glance view checkbox */
+.checkbox-glance-view {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-glance-view>span {
+    padding-left: 5px;
+}
+
+.checkbox-glance-view>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #FFD2A0;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-glance-view>input:checked {
+    border: 1px solid #FFD2A0;
+    background-color: #FFD2A0;
+}
+
+/* for click checkbox */
+.checkbox-click {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-click>span {
+    padding-left: 5px;
+}
+
+.checkbox-click>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid rgb(144, 185, 213);
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-click>input:checked {
+    border: 1px solid rgb(144, 185, 213);
+    background-color: rgb(144, 185, 213);
+}
+
+/* for impression checkbox */
+.checkbox-impression {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-impression>span {
+    padding-left: 5px;
+}
+
+.checkbox-impression>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 1px solid rgb(48, 221, 255);
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-impression>input:checked {
+    border: 1px solid rgb(48, 221, 255);
+    background-color: rgb(48, 221, 255);
+}
+
+/* for orders checkbox */
+.checkbox-orders {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-orders>span {
+    padding-left: 5px;
+}
+
+.checkbox-orders>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid rgb(252, 148, 61);
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-orders>input:checked {
+    border: 1px solid rgb(252, 148, 61);
+    background-color: rgb(252, 148, 61);
+}
+
+/* for convertion rate checkbox */
+.checkbox-conversion-rate {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.checkbox-conversion-rate>span {
+    padding-left: 5px;
+}
+
+.checkbox-conversion-rate>input {
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border: 2px solid #343438;
+    outline: none;
+    transition-duration: 0.3s;
+    background-color: white;
+    cursor: pointer;
+}
+
+.checkbox-conversion-rate>input:checked {
+    border: 1px solid #343438;
+    background-color: #343438;
+}

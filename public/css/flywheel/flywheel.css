@@ -1,0 +1,38 @@
+.tableCategory {
+    border-collapse: collapse;
+}
+
+.thead tr>th {
+    background: white;
+    position: sticky;
+    padding: .5rem;
+    z-index: 2;
+    top: 0;
+}
+
+.thead tr> :first-child {
+    z-index: 3;
+    left: 0;
+    top: 0;
+}
+
+.tableCategory .tfoot {
+    position: sticky;
+    inset-block-end: 0;
+    background: #f8f8f8;
+    /* "bottom" */
+}
+
+.tableCategory tr>:first-child {
+    position: sticky;
+    inset-inline-start: 0;
+    background: #f8f8f8;
+    /* "left" */
+}
+
+.select2-container .select2-selection--multiple .select2-selection__choice {
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: normal;
+    word-wrap: break-word;
+}

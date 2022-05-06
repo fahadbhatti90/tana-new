@@ -1,0 +1,81 @@
+.daterangepicker {
+    background-color: #262B47;
+    border: 1px solid #10163A;
+}
+
+.daterangepicker:before {
+    border-bottom: 7px solid #10163A;
+}
+
+.daterangepicker:after {
+    border-bottom: 6px solid #262B47;
+}
+
+.daterangepicker.drop-up:before {
+    border-top: 7px solid #ccc;
+}
+
+.daterangepicker.drop-up:after {
+    border-top: 6px solid #262B47;
+}
+
+.daterangepicker .calendar-table .next span,
+.daterangepicker .calendar-table .prev span {
+    color: #262B47;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
+    display: inline-block;
+    padding: 3px;
+}
+.daterangepicker .calendar-table {
+    border: 1px solid #262B47;
+    background-color: #262B47;
+}
+
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+    background-color: #10163A;
+}
+
+.daterangepicker td.week, .daterangepicker th.week {
+    color: #10163A;
+}
+
+.daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date {
+    background-color: #262b47;
+    color: #999999;
+}
+
+.daterangepicker td.in-range {
+    background-color: #10163A;
+    color: #EBEEFD;
+}
+
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background-color: #4DD0EA;
+    color: #EBEEFD;
+}
+
+.daterangepicker td.disabled, .daterangepicker option.disabled {
+    color: #999;
+}
+
+.daterangepicker .ranges li.active {
+    background-color: #4DD0EA;
+    color: #262B47;
+}
+
+body{
+    color: #E7EAF9;
+}
+
+.cancelBtn{
+    color: #E7EAF9;
+}
+
+.drp-selected{
+    color: #E7EAF9;
+}
+.daterangepicker .drp-buttons {
+    border-top: 0.5px solid #10163A;
+}

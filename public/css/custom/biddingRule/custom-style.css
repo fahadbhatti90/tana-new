@@ -1,0 +1,5 @@
+.select2-selection--multiple {
+    overflow: auto;
+    height: 170px;
+    max-height: 170px;
+}
